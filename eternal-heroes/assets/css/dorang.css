@@ -50,7 +50,9 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "beaufort-pro", serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -62,7 +64,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "beaufort-pro", serif;
+  font-weight: 450;
+  font-style: normal;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -11500,7 +11504,7 @@ a:hover {
   min-height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/DwarvenMines.jpg);
   background-size: cover;
   background-position: center;
   -webkit-transition: .2s;
@@ -11691,7 +11695,7 @@ body.light-theme .theme-selector .spinner i {
 }
 
 body.light-theme .header {
-  background-image: url(../imgs/header-light.jpg);
+  background-image: url(../imgs/DwarvenMines.jpg);
 }
 
 body.light-theme .header .overlay {
