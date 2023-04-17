@@ -10972,8 +10972,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+li {
+  color: #fff;
+}
+
 .title {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
+}
+
+.titleSmall {
+  font-size: calc(10px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
 
 p {
@@ -11660,7 +11668,16 @@ body.light-theme .title {
   color: #000;
 }
 
+body.light-theme .titleSmall {
+  color: #000;
+}
+
+
 body.light-theme p {
+  color: #000;
+}
+
+body.light-theme li {
   color: #000;
 }
 
@@ -11705,6 +11722,7 @@ body.light-theme .header .overlay {
 
 body.light-theme .header p,
 body.light-theme .header .title,
+body.light-theme .header .titleSmall,
 body.light-theme .header .header-title {
   color: #212529;
 }
@@ -11725,7 +11743,14 @@ body.light-theme .header .btn-theme-color:active {
 }
 
 body.light-theme .overlay-img p,
+body.light-theme .overlay-img li,
+body.light-theme .overlay-img h1,
+body.light-theme .overlay-img h2,
+body.light-theme .overlay-img h3,
+body.light-theme .overlay-img h4,
+body.light-theme .overlay-img h5,
 body.light-theme .overlay-img .title,
+body.light-theme .overlay-img .titleSmall,
 body.light-theme .overlay-img .subtitle {
   color: #fff;
 }

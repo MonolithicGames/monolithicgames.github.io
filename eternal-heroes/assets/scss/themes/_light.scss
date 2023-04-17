@@ -6,7 +6,19 @@ body.light-theme {
 		color: $black;
 	}
 
+	.titleSmall {
+		color: $black;
+	}
+
 	p {
+		color: $black;
+	}
+	
+	li {
+		color: $black;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
 		color: $black;
 	}
 
@@ -50,7 +62,7 @@ body.light-theme {
 	}
 
 	.header {
-	    background-image: url(../imgs/DwarvenMines.jpg);
+	    background-image: url(../../imgs/DwarvenMines.jpg);
 
 		.overlay {
 			background-image: radial-gradient(140% 110% at 48% 42%,rgba($light-theme-color, .40),rgba($light-theme-color, .50),rgba($light-theme-color, .65),rgba($light-theme-color, .75),rgba($light-theme-color, .93),$light-theme-color 55%,$light-theme-color 200%,);
@@ -58,7 +70,10 @@ body.light-theme {
 		}
 
 		p,
+		li,
+		h1, h2, h3, h4, h5, h6,
 		.title,
+		.titleSmall,
 		.header-title {
 			color: $dark-theme-color;
 		}
@@ -82,7 +97,10 @@ body.light-theme {
 	.overlay-img {
 
 		p,
+		li,
+		h1, h2, h3, h4, h5, h6,
 		.title,
+		.titleSmall,
 		.subtitle {
 			color: $light-theme-color;
 		}
