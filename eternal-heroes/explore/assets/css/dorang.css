@@ -50,7 +50,9 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "beaufort-pro", serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -62,7 +64,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "beaufort-pro", serif;
+  font-weight: 450;
+  font-style: normal;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10968,8 +10972,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+li {
+  color: #fff;
+}
+
 .title {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
+}
+
+.titleSmall {
+  font-size: calc(10px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
 
 p {
@@ -11500,7 +11512,7 @@ a:hover {
   min-height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/DwarvenMines2.jpg);
   background-size: cover;
   background-position: center;
   -webkit-transition: .2s;
@@ -11632,7 +11644,7 @@ body {
   position: relative;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/BottomTrimm.jpg);
+  background-image: url(../../../assets/imgs/BottomTrimm.jpg);
   background-size: cover;
   background-position: bottom;
 }
@@ -11656,7 +11668,16 @@ body.light-theme .title {
   color: #000;
 }
 
+body.light-theme .titleSmall {
+  color: #000;
+}
+
+
 body.light-theme p {
+  color: #000;
+}
+
+body.light-theme li {
   color: #000;
 }
 
@@ -11691,7 +11712,7 @@ body.light-theme .theme-selector .spinner i {
 }
 
 body.light-theme .header {
-  background-image: url(../imgs/header-light.jpg);
+  background-image: url(../imgs/DwarvenMines2.jpg);
 }
 
 body.light-theme .header .overlay {
@@ -11701,6 +11722,7 @@ body.light-theme .header .overlay {
 
 body.light-theme .header p,
 body.light-theme .header .title,
+body.light-theme .header .titleSmall,
 body.light-theme .header .header-title {
   color: #212529;
 }
@@ -11721,7 +11743,14 @@ body.light-theme .header .btn-theme-color:active {
 }
 
 body.light-theme .overlay-img p,
+body.light-theme .overlay-img li,
+body.light-theme .overlay-img h1,
+body.light-theme .overlay-img h2,
+body.light-theme .overlay-img h3,
+body.light-theme .overlay-img h4,
+body.light-theme .overlay-img h5,
 body.light-theme .overlay-img .title,
+body.light-theme .overlay-img .titleSmall,
 body.light-theme .overlay-img .subtitle {
   color: #fff;
 }
